@@ -3,7 +3,6 @@
 #   25.03.18
 
 
-
 import random
 
 print("""
@@ -32,9 +31,6 @@ while WORDS:
     ##    Присваивает переменной word случайное слово из WORDS
     word = WORDS[random_word_number]
     
-                ##word = random.choice(WORDS)
-                ##WORDS = WORDS[:random_word] + WORDS[(random_word+1):]
-
     ##  correct - переменная, в которой выбранное ранее слово для дальнейшей проверки. Только для проверки
     correct = word
 
